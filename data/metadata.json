@@ -1,0 +1,123 @@
+[
+  {
+    "name": "WiPwn",
+    "type": "tools",
+    "desc": "Advanced **Wireless Penetration** suite for Termux. Features automated deauth and handshake capture.",
+    "file": "wipwn.sh",
+    "commands": [
+      { "label": "Install", "text": "curl -sL https://anbuinfosec.me/code/wipwn.sh | bash" },
+      { "label": "Run", "text": "sudo wipwn" }
+    ],
+    "repo": "https://github.com/anbuinfosec/wipwn",
+    "repo_type": true
+  },
+  {
+    "name": "Ramadan Companion",
+    "type": "app",
+    "desc": "Complete **Ramadan Timetable** & Companion for Bangladesh. Features Sehri/Iftar alerts and prayer times.",
+    "file": "RamadanCompanion.apk",
+    "download_url": "https://github.com/anbuinfosec/RamadanCompanionApk/releases/latest/download/RamadanCompanion.apk",
+    "cmd": "v1.0.1 Stable Build",
+    "repo": "https://github.com/anbuinfosec/RamadanCompanionApk",
+    "repo_type": true
+  },
+  {
+    "name": "SimSimi App",
+    "type": "app",
+    "desc": "A customized **SimSimi Chat** client for Android. Features ad-free experience and faster response times.",
+    "file": "SimSimi.apk",
+    "download_url": "https://github.com/anbuinfosec/SimSimi/releases/latest/download/SimSimi.apk",
+    "cmd": "Android APK",
+    "repo": "https://github.com/anbuinfosec/SimSimi",
+    "repo_type": true
+  },
+  {
+    "name": "bkash-pgw",
+    "type": "webapp",
+    "desc": "Modern **Next.js** web application for **bKash Payment Gateway** integration. Clean UI for handling checkout flows.",
+    "file": "page.tsx",
+    "commands": [
+      { "label": "Setup", "text": "npm install" },
+      { "label": "Dev", "text": "npm run dev" }
+    ],
+    "repo": "https://github.com/anbuinfosec/bkash-pgw",
+    "repo_type": true
+  },
+  {
+    "name": "Mardec",
+    "type": "python",
+    "desc": "Powerful **Python Deobfuscator** that detects and decodes **Marshal**, **Base64**, and **Zlib** obfuscation layers.",
+    "file": "mardec.py",
+    "commands": [
+      { "label": "Install", "text": "pip install git+https://github.com/anbuinfosec/mardec" },
+      { "label": "Run", "text": "python mardec.py <file.py>" }
+    ],
+    "repo": "https://github.com/anbuinfosec/mardec",
+    "repo_type": true
+  },
+  {
+    "name": "OsintXplorer",
+    "type": "python",
+    "desc": "Advanced **OSINT Framework** for automated intelligence gathering and digital footprint auditing.",
+    "file": "osintx.py",
+    "commands": [
+      { "label": "Setup", "text": "pip install -r requirements.txt" },
+      { "label": "Start", "text": "python osintx.py" }
+    ],
+    "repo": "https://github.com/anbuinfosec/OsintXplorer",
+    "repo_type": true
+  },
+  {
+    "name": "Goat-WhatsApp-Bot",
+    "type": "nodejs",
+    "desc": "Modular **WhatsApp Bot** platform built with Baileys. Optimized for speed and plugin expansion.",
+    "file": "index.js",
+    "commands": [
+      { "label": "Install", "text": "npm install && npm start" }
+    ],
+    "repo": "https://github.com/anbuinfosec/Goat-WhatsApp-Bot",
+    "repo_type": true
+  },
+  {
+    "name": "flipper-ble-detector",
+    "type": "python",
+    "desc": "Detect **Flipper Zero** devices and analyze BLE spam packets using Bluetooth scanning.",
+    "file": "detector.py",
+    "commands": [
+      { "label": "Run", "text": "python detector.py" }
+    ],
+    "repo": "https://github.com/anbuinfosec/flipper-ble-detector",
+    "repo_type": true
+  },
+  {
+    "name": "ANBU-DOWN",
+    "type": "tools",
+    "desc": "Lightweight **CLI Media Downloader** supporting FB, YT, and IG high-quality video fetching.",
+    "file": "anbudown.sh",
+    "commands": [
+      { "label": "Execute", "text": "bash anbudown.sh <url>" }
+    ],
+    "repo": "https://github.com/anbuinfosec/ANBU-DOWN",
+    "repo_type": true
+  },
+  {
+    "name": "espPowerManagement",
+    "type": "cpp",
+    "desc": "C++ library for **ESP32/ESP8266** projects to manage deep sleep and battery optimization.",
+    "file": "Power.h",
+    "cmd": "Arduino Library",
+    "repo": "https://github.com/anbuinfosec/espPowerManagement",
+    "repo_type": true
+  },
+  {
+    "name": "kali-nethunter",
+    "type": "tools",
+    "desc": "Custom scripts and **HID payloads** for Kali NetHunter mobile penetration testing.",
+    "file": "setup.sh",
+    "commands": [
+      { "label": "Setup", "text": "bash setup.sh" }
+    ],
+    "repo": "https://github.com/anbuinfosec/kali-nethunter",
+    "repo_type": true
+  }
+]
