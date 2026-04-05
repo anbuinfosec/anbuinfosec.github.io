@@ -1,105 +1,356 @@
 <!DOCTYPE html>
 <html lang="en">
-
 <head>
-  <meta charset="UTF-8">
-  <meta http-equiv="Content-Type" content="text/html; charset=UTF-8" /><meta property="og:title" content=anbuinfosec | Home>
-  <meta property="og:type" content="website">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <meta http-equiv="X-UA-Compatible" content="ie=edge">
-  <title>Mohammad Alamin | anbuinfosec</title>
-  <meta name="description" content="">
-  <meta name="keywords" content="anbuinfosec">
-  <meta name="author" content="Mohammad Alamin">
-
-
-  <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.3.1/css/all.css">
-  <link rel="stylesheet" href="https://unpkg.com/tailwindcss@2.2.19/dist/tailwind.min.css"/> 
-
-</head>
-
-<body class="font-sans antialiased text-gray-900 leading-normal tracking-wider bg-cover" style="background-image:url('https://i.ibb.co.com/z20kKNd/hero-bg.jpg');">
-
-
-
-  <div class="max-w-4xl flex items-center h-auto lg:h-screen flex-wrap mx-auto my-32 lg:my-0">
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>ANBU HUB | Universal Matrix</title>
     
-	<!--Main Col-->
-	<div id="profile" class="w-full lg:w-3/5 rounded-lg lg:rounded-l-lg lg:rounded-r-none shadow-2xl bg-white opacity-75 mx-6 lg:mx-0">
-	
+    <link rel="icon" type="image/png" href="https://avatars.githubusercontent.com/u/135030867?v=4">
+    <link href="https://fonts.googleapis.com/css2?family=Fira+Code:wght@400;500&family=Plus+Jakarta+Sans:wght@400;600;800&family=Space+Grotesk:wght@500;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css">
 
-		<div class="p-4 md:p-12 text-center lg:text-left">
-			<div class="block lg:hidden rounded-full shadow-xl mx-auto -mt-16 h-48 w-48 bg-cover bg-center" style="background-image: url('https://avatars.githubusercontent.com/u/135030867?v=4')"></div>
-		
-			
-			<h1 class="text-3xl font-bold pt-8 lg:pt-0">Mohammad Alamin</h1>
-			<div class="mx-auto lg:mx-0 w-4/5 pt-3 border-b-2 border-green-500 opacity-25"></div>
-			<p class="pt-4 text-base font-bold flex items-center justify-center lg:justify-start"><svg class="h-4 fill-current text-green-700 pr-4" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 20 20"><path d="M9 12H1v6a2 2 0 0 0 2 2h14a2 2 0 0 0 2-2v-6h-8v2H9v-2zm0-1H0V5c0-1.1.9-2 2-2h4V2a2 2 0 0 1 2-2h4a2 2 0 0 1 2 2v1h4a2 2 0 0 1 2 2v6h-9V9H9v2zm3-8V2H8v1h4z"/></svg> Programmer</p>
-			<p class="pt-2 text-gray-600 text-xs lg:text-sm flex items-center justify-center lg:justify-start"><svg class="h-4 fill-current text-green-700 pr-4" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 20 20"><path d="M10 20a10 10 0 1 1 0-20 10 10 0 0 1 0 20zm7.75-8a8.01 8.01 0 0 0 0-4h-3.82a28.81 28.81 0 0 1 0 4h3.82zm-.82 2h-3.22a14.44 14.44 0 0 1-.95 3.51A8.03 8.03 0 0 0 16.93 14zm-8.85-2h3.84a24.61 24.61 0 0 0 0-4H8.08a24.61 24.61 0 0 0 0 4zm.25 2c.41 2.4 1.13 4 1.67 4s1.26-1.6 1.67-4H8.33zm-6.08-2h3.82a28.81 28.81 0 0 1 0-4H2.25a8.01 8.01 0 0 0 0 4zm.82 2a8.03 8.03 0 0 0 4.17 3.51c-.42-.96-.74-2.16-.95-3.51H3.07zm13.86-8a8.03 8.03 0 0 0-4.17-3.51c.42.96.74 2.16.95 3.51h3.22zm-8.6 0h3.34c-.41-2.4-1.13-4-1.67-4S8.74 3.6 8.33 6zM3.07 6h3.22c.2-1.35.53-2.55.95-3.51A8.03 8.03 0 0 0 3.07 6z"/></svg> Rangpur, Bangaldesh</p>
-			<p class="pt-8 text-sm">Hey there! I'm Mohammad Alamin, a 17 Y/O backend developer from Rangpur. Currently studying Computer Science & Technology at Barisal Polytechnic Institute. Join me in exploring and creating new things in the digital world.</p>
+    <style>
+        :root {
+            --bg: #030305;
+            --surface: #0a0b10;
+            --surface-hover: #11131a;
+            --border: rgba(255, 255, 255, 0.08);
+            --primary: #10b981;
+            --primary-glow: rgba(16, 185, 129, 0.3);
+            --text: #ffffff;
+            --muted: #94a3b8;
+        }
 
+        * { margin: 0; padding: 0; box-sizing: border-box; }
+        
+        body { 
+            font-family: 'Plus Jakarta Sans', sans-serif; 
+            background-color: var(--bg); 
+            color: var(--text); 
+            line-height: 1.6; 
+            overflow-x: hidden;
+        }
 
-			<div class="mt-6 pb-16 lg:pb-0 w-4/5 lg:w-full mx-auto flex flex-wrap items-center justify-between">
-				<a class="link" href="https://facebook.com/anbuinfosec" data-tippy-content="Visit my Facebook Account"><svg class="h-6 fill-current text-gray-600 hover:text-green-700" role="img" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg"><title>Facebook</title><path d="M22.676 0H1.324C.593 0 0 .593 0 1.324v21.352C0 23.408.593 24 1.324 24h11.494v-9.294H9.689v-3.621h3.129V8.41c0-3.099 1.894-4.785 4.659-4.785 1.325 0 2.464.097 2.796.141v3.24h-1.921c-1.5 0-1.792.721-1.792 1.771v2.311h3.584l-.465 3.63H16.56V24h6.115c.733 0 1.325-.592 1.325-1.324V1.324C24 .593 23.408 0 22.676 0"/></svg></a>
-				<a class="link" href="https://github.com/anbuinfosec" data-tippy-content="Visit my GitHub"><svg class="h-6 fill-current text-gray-600 hover:text-green-700" role="img" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg"><title>GitHub</title><path d="M12 .297c-6.63 0-12 5.373-12 12 0 5.303 3.438 9.8 8.205 11.385.6.113.82-.258.82-.577 0-.285-.01-1.04-.015-2.04-3.338.724-4.042-1.61-4.042-1.61C4.422 18.07 3.633 17.7 3.633 17.7c-1.087-.744.084-.729.084-.729 1.205.084 1.838 1.236 1.838 1.236 1.07 1.835 2.809 1.305 3.495.998.108-.776.417-1.305.76-1.605-2.665-.3-5.466-1.332-5.466-5.93 0-1.31.465-2.38 1.235-3.22-.135-.303-.54-1.523.105-3.176 0 0 1.005-.322 3.3 1.23.96-.267 1.98-.399 3-.405 1.02.006 2.04.138 3 .405 2.28-1.552 3.285-1.23 3.285-1.23.645 1.653.24 2.873.12 3.176.765.84 1.23 1.91 1.23 3.22 0 4.61-2.805 5.625-5.475 5.92.42.36.81 1.096.81 2.22 0 1.606-.015 2.896-.015 3.286 0 .315.21.69.825.57C20.565 22.092 24 17.592 24 12.297c0-6.627-5.373-12-12-12"/></svg></a>
-				<a class="link" href="https://anbusec.xyz" data-tippy-content="Visit my Website"><svg class="h-6 fill-current text-gray-600 hover:text-green-700" role="img" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg"><title>Dribbble</title><path d="M12 24C5.385 24 0 18.615 0 12S5.385 0 12 0s12 5.385 12 12-5.385 12-12 12zm10.12-10.358c-.35-.11-3.17-.953-6.384-.438 1.34 3.684 1.887 6.684 1.992 7.308 2.3-1.555 3.936-4.02 4.395-6.87zm-6.115 7.808c-.153-.9-.75-4.032-2.19-7.77l-.066.02c-5.79 2.015-7.86 6.025-8.04 6.4 1.73 1.358 3.92 2.166 6.29 2.166 1.42 0 2.77-.29 4-.814zm-11.62-2.58c.232-.4 3.045-5.055 8.332-6.765.135-.045.27-.084.405-.12-.26-.585-.54-1.167-.832-1.74C7.17 11.775 2.206 11.71 1.756 11.7l-.004.312c0 2.633.998 5.037 2.634 6.855zm-2.42-8.955c.46.008 4.683.026 9.477-1.248-1.698-3.018-3.53-5.558-3.8-5.928-2.868 1.35-5.01 3.99-5.676 7.17zM9.6 2.052c.282.38 2.145 2.914 3.822 6 3.645-1.365 5.19-3.44 5.373-3.702-1.81-1.61-4.19-2.586-6.795-2.586-.825 0-1.63.1-2.4.285zm10.335 3.483c-.218.29-1.935 2.493-5.724 4.04.24.49.47.985.68 1.486.08.18.15.36.22.53 3.41-.43 6.8.26 7.14.33-.02-2.42-.88-4.64-2.31-6.38z"/></svg></a>
-				<a class="link" href="https://instagram.com/anbuinfosec" data-tippy-content="Visit my Instagram Account."><svg class="h-6 fill-current text-gray-600 hover:text-green-700" role="img" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg"><title>Instagram</title><path d="M12 0C8.74 0 8.333.015 7.053.072 5.775.132 4.905.333 4.14.63c-.789.306-1.459.717-2.126 1.384S.935 3.35.63 4.14C.333 4.905.131 5.775.072 7.053.012 8.333 0 8.74 0 12s.015 3.667.072 4.947c.06 1.277.261 2.148.558 2.913.306.788.717 1.459 1.384 2.126.667.666 1.336 1.079 2.126 1.384.766.296 1.636.499 2.913.558C8.333 23.988 8.74 24 12 24s3.667-.015 4.947-.072c1.277-.06 2.148-.262 2.913-.558.788-.306 1.459-.718 2.126-1.384.666-.667 1.079-1.335 1.384-2.126.296-.765.499-1.636.558-2.913.06-1.28.072-1.687.072-4.947s-.015-3.667-.072-4.947c-.06-1.277-.262-2.149-.558-2.913-.306-.789-.718-1.459-1.384-2.126C21.319 1.347 20.651.935 19.86.63c-.765-.297-1.636-.499-2.913-.558C15.667.012 15.26 0 12 0zm0 2.16c3.203 0 3.585.016 4.85.071 1.17.055 1.805.249 2.227.415.562.217.96.477 1.382.896.419.42.679.819.896 1.381.164.422.36 1.057.413 2.227.057 1.266.07 1.646.07 4.85s-.015 3.585-.074 4.85c-.061 1.17-.256 1.805-.421 2.227-.224.562-.479.96-.899 1.382-.419.419-.824.679-1.38.896-.42.164-1.065.36-2.235.413-1.274.057-1.649.07-4.859.07-3.211 0-3.586-.015-4.859-.074-1.171-.061-1.816-.256-2.236-.421-.569-.224-.96-.479-1.379-.899-.421-.419-.69-.824-.9-1.38-.165-.42-.359-1.065-.42-2.235-.045-1.26-.061-1.649-.061-4.844 0-3.196.016-3.586.061-4.861.061-1.17.255-1.814.42-2.234.21-.57.479-.96.9-1.381.419-.419.81-.689 1.379-.898.42-.166 1.051-.361 2.221-.421 1.275-.045 1.65-.06 4.859-.06l.045.03zm0 3.678c-3.405 0-6.162 2.76-6.162 6.162 0 3.405 2.76 6.162 6.162 6.162 3.405 0 6.162-2.76 6.162-6.162 0-3.405-2.76-6.162-6.162-6.162zM12 16c-2.21 0-4-1.79-4-4s1.79-4 4-4 4 1.79 4 4-1.79 4-4 4zm7.846-10.405c0 .795-.646 1.44-1.44 1.44-.795 0-1.44-.646-1.44-1.44 0-.794.646-1.439 1.44-1.439.793-.001 1.44.645 1.44 1.439z"/></svg></a>
-				<a class="link" href="https://youtube.com/@anbuinfosec" data-tippy-content="Subscribe my YouTube channel"><svg class="h-6 fill-current text-gray-600 hover:text-green-700" role="img" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><title>YouTube</title><path d="M23.495 6.205a3.007 3.007 0 0 0-2.088-2.088c-1.87-.501-9.396-.501-9.396-.501s-7.507-.01-9.396.501A3.007 3.007 0 0 0 .527 6.205a31.247 31.247 0 0 0-.522 5.805 31.247 31.247 0 0 0 .522 5.783 3.007 3.007 0 0 0 2.088 2.088c1.868.502 9.396.502 9.396.502s7.506 0 9.396-.502a3.007 3.007 0 0 0 2.088-2.088 31.247 31.247 0 0 0 .5-5.783 31.247 31.247 0 0 0-.5-5.805zM9.609 15.601V8.408l6.264 3.602z"/></svg></a>
-			</div>
-		
+        .container { width: 92%; max-width: 1250px; margin: 0 auto; }
 
-		</div>
+        /* Animations */
+        @keyframes fadeInUp {
+            from { opacity: 0; transform: translateY(30px); }
+            to { opacity: 1; transform: translateY(0); }
+        }
 
-	</div>
-	
-	<!--Img Col-->
-	<div class="w-full lg:w-2/5">
-		<img src="https://avatars.githubusercontent.com/u/135030867?v=4" class="rounded-none lg:rounded-lg shadow-2xl hidden lg:block">
-	</div>
-	
-	
-	<!-- Pin to top right corner -->
-	  <div class="absolute top-0 right-0 h-12 w-18 p-4">
-		<button class="js-change-theme focus:outline-none">🌙</button>
-	  </div>
+        @keyframes scan {
+            0% { left: -100%; }
+            100% { left: 100%; }
+        }
 
-</div>
+        @keyframes heartbeat {
+            0% { transform: scale(1); }
+            15% { transform: scale(1.2); }
+            30% { transform: scale(1); }
+            45% { transform: scale(1.15); }
+            60% { transform: scale(1); }
+        }
 
-	<script src="https://unpkg.com/popper.js@1/dist/umd/popper.min.js"></script>
-	<script src="https://unpkg.com/tippy.js@4"></script>
-	<script>
+        header { 
+            border-bottom: 1px solid var(--border); 
+            background: rgba(3, 3, 5, 0.85); 
+            backdrop-filter: blur(20px); 
+            position: sticky; top: 0; z-index: 100; 
+        }
+        
+        .nav-container { height: 75px; display: flex; justify-content: space-between; align-items: center; }
+        
+        .logo { 
+            font-size: clamp(1.2rem, 4vw, 1.5rem); 
+            font-weight: 800; 
+            display: flex; align-items: center; gap: 12px; 
+            text-decoration: none; color: #fff; 
+            font-family: 'Space Grotesk', sans-serif;
+        }
+        
+        .logo img { width: 40px; height: 40px; border-radius: 12px; border: 2.5px solid var(--primary); }
 
-		tippy('.link',{
-		  placement: 'bottom'
-		})
+        .profile-btn {
+            background: rgba(255,255,255,0.03); color: #fff; text-decoration: none;
+            padding: 10px 20px; border-radius: 12px; border: 1px solid var(--border);
+            font-size: 0.85rem; font-weight: 700; transition: 0.3s;
+            display: flex; align-items: center; gap: 8px;
+        }
+        
+        .profile-btn:hover { border-color: var(--primary); background: rgba(16, 185, 129, 0.1); }
 
-		//Toggle mode
-		const toggle = document.querySelector('.js-change-theme');
-		const body = document.querySelector('body');
-		const profile = document.getElementById('profile');
-		
-		
-		toggle.addEventListener('click', () => {
+        nav { background: rgba(5, 5, 7, 0.95); padding: 15px 0; border-bottom: 1px solid var(--border); }
+        
+        .cat-flex { display: flex; gap: 12px; overflow-x: auto; scrollbar-width: none; }
+        .cat-flex::-webkit-scrollbar { display: none; }
+        
+        .cat-btn {
+            padding: 10px 24px; border-radius: 14px; background: var(--surface); 
+            border: 1px solid var(--border); color: var(--muted); 
+            font-size: 0.8rem; font-weight: 700; cursor: pointer; white-space: nowrap;
+            display: flex; align-items: center; gap: 8px; transition: 0.3s;
+        }
+        
+        .cat-btn.active { background: var(--primary); color: #000; border-color: var(--primary); }
 
-		  if (body.classList.contains('text-gray-900')) {
-			toggle.innerHTML = "☀️";
-			body.classList.remove('text-gray-900');
-			body.classList.add('text-gray-100');
-			profile.classList.remove('bg-white');
-			profile.classList.add('bg-gray-900');
-		  } else
-		  {
-			toggle.innerHTML = "🌙";
-			body.classList.remove('text-gray-100');
-			body.classList.add('text-gray-900');
-			profile.classList.remove('bg-gray-900');			
-			profile.classList.add('bg-white');
-			
-		  }
-		});
-		
+        #tool-registry { 
+            display: grid; 
+            grid-template-columns: repeat(auto-fill, minmax(350px, 1fr)); 
+            gap: 25px; padding: 40px 0 100px;
+        }
+
+        .card { 
+            background: var(--surface); border: 1px solid var(--border); 
+            border-radius: 24px; padding: 30px; 
+            display: flex; flex-direction: column; 
+            transition: all 0.4s cubic-bezier(0.175, 0.885, 0.32, 1.275);
+            position: relative; overflow: hidden;
+            animation: fadeInUp 0.6s ease backwards;
+        }
+        
+        .card:hover { 
+            border-color: var(--primary); 
+            transform: translateY(-10px); 
+            background: var(--surface-hover); 
+            box-shadow: 0 20px 40px rgba(0,0,0,0.4);
+        }
+
+        .card::after {
+            content: ''; position: absolute; top: 0; left: -100%; width: 100%; height: 2px;
+            background: linear-gradient(90deg, transparent, var(--primary), transparent);
+            transition: 0.4s;
+        }
+        .card:hover::after { animation: scan 1.5s infinite; }
+
+        .card-head { display: flex; justify-content: space-between; align-items: flex-start; margin-bottom: 18px; }
+        .card-title { font-family: 'Space Grotesk', sans-serif; font-size: 1.4rem; font-weight: 700; color: #fff; }
+        
+        .type-tag { 
+            font-size: 0.65rem; font-weight: 800; padding: 6px 12px; 
+            border-radius: 8px; background: rgba(16, 185, 129, 0.1); 
+            color: var(--primary); text-transform: uppercase; border: 1px solid rgba(16, 185, 129, 0.2);
+        }
+
+        .card-desc { color: var(--muted); font-size: 0.95rem; margin-bottom: 25px; flex-grow: 1; }
+        .card-desc b { color: #fff; }
+
+        .code-box { 
+            background: #000; border: 1px solid var(--border); border-radius: 14px; 
+            padding: 14px; position: relative; display: flex; align-items: center; margin-bottom: 12px;
+        }
+        .code-box code { font-family: 'Fira Code', monospace; color: var(--primary); font-size: 0.75rem; overflow: hidden; text-overflow: ellipsis; }
+        
+        .copy-btn { position: absolute; right: 15px; color: var(--muted); cursor: pointer; transition: 0.2s; }
+        .copy-btn:hover { color: #fff; transform: scale(1.2); }
+
+        .btn-main { 
+            width: 100%; text-align: center; text-decoration: none; font-size: 0.9rem; font-weight: 800; 
+            padding: 16px; border-radius: 14px; background: var(--primary); color: #000; 
+            display: flex; align-items: center; justify-content: center; gap: 10px; transition: 0.3s;
+            text-transform: uppercase; margin-top: 10px;
+        }
+        .btn-main:hover { filter: brightness(1.1); transform: scale(1.02); }
+
+        .btn-sub-group { display: flex; gap: 10px; margin-top: 12px; }
+        .btn-sub { 
+            flex: 1; text-align: center; text-decoration: none; font-size: 0.75rem; 
+            font-weight: 700; padding: 12px; border-radius: 12px; 
+            border: 1px solid var(--border); color: #fff; 
+            background: rgba(255,255,255,0.02); display: flex; 
+            align-items: center; justify-content: center; gap: 8px; transition: 0.3s;
+        }
+        .btn-sub:hover { background: rgba(255,255,255,0.08); border-color: #fff; }
+
+        footer { background: #010102; padding: 80px 0 40px; border-top: 1px solid var(--border); }
+        .footer-flex { display: flex; flex-direction: column; gap: 40px; text-align: center; align-items: center; }
+        
+        .social-links { display: flex; justify-content: center; gap: 12px; flex-wrap: wrap; max-width: 600px; }
+        .social-icon { 
+            width: 45px; height: 45px; border-radius: 12px; border: 1px solid var(--border); 
+            display: flex; align-items: center; justify-content: center; color: var(--muted); 
+            font-size: 1.1rem; transition: 0.3s; text-decoration: none; background: var(--surface); 
+        }
+        .social-icon:hover { border-color: var(--primary); color: var(--primary); transform: translateY(-5px); box-shadow: 0 10px 20px var(--primary-glow); }
+
+        .modal-overlay {
+            position: fixed; top: 0; left: 0; width: 100%; height: 100%;
+            background: rgba(0,0,0,0.85); backdrop-filter: blur(10px);
+            z-index: 1000; display: none; align-items: center; justify-content: center;
+        }
+        .modal-overlay.show { display: flex; animation: fadeIn 0.3s ease; }
+        .modal { background: var(--surface); border: 1px solid var(--border); border-radius: 24px; padding: 40px; max-width: 400px; width: 90%; text-align: center; transform: scale(0.9); transition: 0.3s; }
+        .modal-overlay.show .modal { transform: scale(1); }
+
+        #toast-wrap { position: fixed; bottom: 30px; right: 30px; z-index: 999; }
+        .toast { background: var(--primary); color: #000; padding: 14px 28px; border-radius: 14px; font-weight: 800; font-size: 0.85rem; margin-top: 10px; animation: slideIn 0.4s cubic-bezier(0.175, 0.885, 0.32, 1.275); }
+
+        @media (min-width: 768px) { 
+            .footer-flex { flex-direction: row; justify-content: space-between; text-align: left; }
+            .social-links { justify-content: flex-end; }
+        }
+    </style>
+</head>
+<body>
+    <div id="toast-wrap"></div>
+
+    <div id="tg-popup" class="modal-overlay">
+        <div class="modal">
+            <i class="fab fa-telegram" style="font-size: 3rem; color: #0088cc; margin-bottom: 20px;"></i>
+            <h2 style="color:#fff; margin-bottom: 10px;">Join the Matrix</h2>
+            <p style="color:var(--muted); margin-bottom: 25px;">Get instant updates on new exploits, tools, and security research.</p>
+            <a href="https://t.me/AnbuSoft" target="_blank" class="btn-main" onclick="closePopup()">JOIN TELEGRAM</a>
+            <p style="margin-top:15px; cursor:pointer; color:var(--muted); font-size:0.8rem;" onclick="closePopup()">Dismiss</p>
+        </div>
+    </div>
+
+    <header>
+        <div class="container nav-container">
+            <a href="#" class="logo">
+                <img src="https://avatars.githubusercontent.com/u/135030867?v=4" alt="ANBU">
+                <span>ANBU HUB</span>
+            </a>
+            <a href="https://github.com/anbuinfosec" target="_blank" class="profile-btn">
+                <i class="fab fa-github"></i> <span>GitHub</span>
+            </a>
+        </div>
+    </header>
+
+    <nav>
+        <div class="container">
+            <div class="cat-flex" id="cat-list">
+                <button class="cat-btn active" onclick="filterItems('all', this)">
+                    <i class="fas fa-layer-group"></i> All Projects
+                </button>
+            </div>
+        </div>
+    </nav>
+
+    <main class="container">
+        <div id="tool-registry"></div>
+    </main>
+
+    <footer>
+        <div class="container">
+            <div class="footer-flex">
+                <div>
+                    <h1 style="font-family:'Space Grotesk'; font-size: 2.2rem; color:#fff;">ANBU<span style="color:var(--primary)">INFOSEC</span></h1>
+                    <p style="color:var(--muted); max-width: 400px; margin-top: 10px;">The ultimate repository for specialized Android security and automation tools.</p>
+                </div>
+                <div class="social-links">
+                    <a href="https://facebook.com/anbuinfosec" class="social-icon" target="_blank"><i class="fab fa-facebook-f"></i></a>
+                    <a href="https://instagram.com/anbuinfosec" class="social-icon" target="_blank"><i class="fab fa-instagram"></i></a>
+                    <a href="https://threads.net/@anbuinfosec" class="social-icon" target="_blank"><i class="fab fa-threads"></i></a>
+                    <a href="https://x.com/anbuinfosec" class="social-icon" target="_blank"><i class="fab fa-x-twitter"></i></a>
+                    <a href="https://linkedin.com/in/anbuinfosec" class="social-icon" target="_blank"><i class="fab fa-linkedin-in"></i></a>
+                    <a href="https://github.com/anbuinfosec" class="social-icon" target="_blank"><i class="fab fa-github"></i></a>
+                    <a href="https://anbuinfosec.me" class="social-icon" target="_blank"><i class="fas fa-globe"></i></a>
+                    <a href="https://t.me/AnbuSoft" class="social-icon" target="_blank"><i class="fab fa-telegram-plane"></i></a>
+                    <a href="mailto:anbuinfosec@proton.me" class="social-icon"><i class="fas fa-envelope"></i></a>
+                </div>
+            </div>
+
+            <p style="text-align: center; margin-top: 60px; color: var(--muted); font-size: 0.85rem; font-weight: 600; letter-spacing: 0.5px;">
+                Made with <i class="fas fa-heart" style="color: #ef4444; margin: 0 4px; animation: heartbeat 1.5s ease infinite;"></i> by 
+                <a href="https://anbuinfosec.me" target="_blank" style="color: var(--primary); text-decoration: none; border-bottom: 1px solid transparent; transition: 0.3s;">ANBUINFOSEC</a>
+            </p>
+        </div>
+    </footer>
+
+    <script>
+        const ICONS = { 'tools': 'fa-terminal', 'app': 'fa-mobile-screen', 'nodejs': 'fa-brands fa-node-js', 'webapp': 'fa-globe', 'python': 'fa-brands fa-python', 'cpp': 'fa-microchip' };
+        let projects = [];
+
+        async function init() {
+            try {
+                const res = await fetch('https://raw.githubusercontent.com/anbuinfosec/anbuinfosec.github.io/main/data/metadata.json');
+                projects = await res.json();
+                
+                const catList = document.getElementById('cat-list');
+                const types = [...new Set(projects.map(p => p.type))];
+                
+                types.forEach(type => {
+                    const btn = document.createElement('button');
+                    btn.className = 'cat-btn';
+                    btn.innerHTML = `<i class="fas ${ICONS[type] || 'fa-code'}"></i> ${type}`;
+                    btn.onclick = () => filterItems(type, btn);
+                    catList.appendChild(btn);
+                });
+
+                renderCards(projects);
+                
+                if(!localStorage.getItem('anbu_tg')) {
+                    setTimeout(() => document.getElementById('tg-popup').classList.add('show'), 4000);
+                }
+            } catch (e) { console.error("Sync Failed"); }
+        }
+
+        function renderCards(data) {
+            const container = document.getElementById('tool-registry');
+            container.innerHTML = '';
+            
+            data.forEach((item, index) => {
+                const card = document.createElement('div');
+                card.className = 'card';
+                card.style.animationDelay = `${index * 0.1}s`;
+                
+                const formattedDesc = item.desc.replace(/\*\*(.*?)\*\*/g, '<b>$1</b>');
+                let cmdHtml = '';
+                
+                if (item.commands) {
+                    item.commands.forEach(c => {
+                        cmdHtml += `<div class="cmd-group"><span class="cmd-label">${c.label}</span><div class="code-box"><code>${c.text}</code><i class="far fa-copy copy-btn" onclick="copy('${c.text.replace(/'/g, "\\'")}')"></i></div></div>`;
+                    });
+                } else if (item.cmd) {
+                    cmdHtml = `<div class="cmd-group"><span class="cmd-label">Usage</span><div class="code-box"><code>${item.cmd}</code><i class="far fa-copy copy-btn" onclick="copy('${item.cmd.replace(/'/g, "\\'")}')"></i></div></div>`;
+                }
+
+                const isApp = item.type === 'app';
+                const actionUrl = item.download_url ? item.download_url : item.repo;
+
+                let subBtnHtml = '';
+                if(item.repo_type && item.repo) {
+                    subBtnHtml = `
+                        <div class="btn-sub-group">
+                            <a href="${item.repo}" target="_blank" class="btn-sub"><i class="fas fa-star" style="color:#fbbf24"></i> Star</a>
+                            <a href="${item.repo}/fork" target="_blank" class="btn-sub"><i class="fas fa-code-branch"></i> Fork</a>
+                        </div>`;
+                }
+
+                card.innerHTML = `
+                    <div class="card-head"><div class="card-title">${item.name}</div><span class="type-tag">${item.type}</span></div>
+                    <p class="card-desc">${formattedDesc}</p>
+                    ${cmdHtml}
+                    <div style="margin-top: auto;">
+                        <a href="${actionUrl}" class="btn-main" target="_blank"><i class="fas ${isApp ? 'fa-download' : 'fa-arrow-up-right-from-square'}"></i> ${isApp ? 'Download APK' : 'Explore'}</a>
+                        ${subBtnHtml}
+                    </div>
+                `;
+                container.appendChild(card);
+            });
+        }
+
+        function filterItems(type, btn) {
+            document.querySelectorAll('.cat-btn').forEach(b => b.classList.remove('active'));
+            btn.classList.add('active');
+            renderCards(type === 'all' ? projects : projects.filter(p => p.type === type));
+        }
+
+        function copy(text) {
+            navigator.clipboard.writeText(text);
+            const toast = document.createElement('div');
+            toast.className = 'toast';
+            toast.innerText = 'Copied to clipboard!';
+            document.getElementById('toast-wrap').appendChild(toast);
+            setTimeout(() => toast.remove(), 2500);
+        }
+
+        function closePopup() {
+            document.getElementById('tg-popup').classList.remove('show');
+            localStorage.setItem('anbu_tg', 'true');
+        }
+
+        window.onload = init;
     </script>
-	
 </body>
-
 </html>
