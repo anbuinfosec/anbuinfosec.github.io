@@ -12,6 +12,17 @@
     "repo_type": true
   },
   {
+    "name": "FIXROOT",
+    "type": "tools",
+    "desc": "This script checks for the stability of 'tsu', uninstalls it if corrupted, updates Termux repositories, and attempts to elevate the terminal to root if a valid root binary is found.",
+    "file": "fixroot.sh",
+    "commands": [
+      { "label": "Run", "text": "curl -sL https://anbuinfosec.me/code/fixroot.sh | bash" }
+    ],
+    "repo": "https://github.com/anbuinfosec/wipwn",
+    "repo_type": true
+  },
+  {
     "name": "Ramadan Companion",
     "type": "app",
     "desc": "Complete **Ramadan Timetable** & Companion for Bangladesh. Features Sehri/Iftar alerts and prayer times.",
